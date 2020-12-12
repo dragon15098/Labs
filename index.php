@@ -14,5 +14,7 @@
 </html>
 
 <?php
-include($_GET['file']);
+if(isset($_GET['file'])){
+	include($_GET['file']);
+}
 ?>
